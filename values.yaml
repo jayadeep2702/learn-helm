@@ -90,3 +90,8 @@ ports:
 env:
   domain: google.com
   url: facebook.com
+labels:
+  app: nginx
+  version: 1.17
+  maker: nginx
+  type: opensource
