@@ -87,3 +87,6 @@ open_port: true
 ports:
   - 80
   - 100
+env:
+  domain: google.com
+  url: facebook.com
