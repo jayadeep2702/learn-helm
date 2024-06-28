@@ -11,8 +11,8 @@ spec:
       - containerPort: {{ . }}
       {{- end }}
       env:
-      { { - range $key, $value := .Values.env } }
-      - name: { { $key } }
-        value: { { $value } }
+      { { - range $k, $v := .Values.env } }
+      - name: { { $k } }
+        value: { { $v } }
       { { - end } }
 
