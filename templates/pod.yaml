@@ -14,5 +14,5 @@ spec:
       {{- range $k, $v := .Values.env }}
       - name: {{ $k }}
         value: {{ $v }}
-      {{ - end }}
+      {{- end }}
 
